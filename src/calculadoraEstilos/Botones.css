@@ -1,0 +1,30 @@
+.botonContenedor{
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: rgb(126, 31, 105);
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: -1px 2.5px 1px 1px rgba(255, 255, 255, 0.712);
+}
+.botonContenedor:hover {
+background-color: rgb(148, 110, 160);
+box-shadow: none;
+}
+.operador{
+    background-color: rgb(202, 50, 169);
+    box-shadow: -1px 2.5px 1px 1px rgba(255, 255, 255, 0.712);
+}
+.operador:hover{
+    background-color: rgba(250, 131, 224, 0.658);
+    box-shadow:none;
+    
+}
