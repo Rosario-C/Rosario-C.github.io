@@ -3,8 +3,9 @@ import FreeCodeCampLogo from './imagenes/FreeCodeCamp_logo.svg.png'
 import Boton from './componentes/Botones';
 import Pantalla from './componentes/Pantalla';
 import ClearBoton from './componentes/BotonClear';
-import { useState } from 'react';
-import { evaluate } from 'mathjs'; //es una librearia de matematicas para react y node js
+import React, { useState } from 'react';
+import { evaluate } from 'mathjs'; 
+//es una librearia de matematicas para react y node js
 
 function App() {
 
