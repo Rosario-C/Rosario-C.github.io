@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Rosario-C.github.io/precache-manifest.87ebc1bc89fa4e781515cee6bf8c86c0.js"
+  "/calculadora/precache-manifest.675861ec0b8bbdecc5c555213741a509.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Rosario-C.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/calculadora/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
