@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Rosario-C/Rosario-C.github.io.git/precache-manifest.d43c741395182e2d4401ce9850ff7b9a.js"
+  "/Rosario-C.github.io/precache-manifest.87ebc1bc89fa4e781515cee6bf8c86c0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Rosario-C/Rosario-C.github.io.git/index.html", {
+workbox.routing.registerNavigationRoute("/Rosario-C.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
